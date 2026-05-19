@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'DS-Digital';
+    src: url('./fonts/DS-DIGI.TTF') format('truetype');
+}
+
+h1, button {
+    font-family: 'DS-Digital';
+}
+
+body {
+    margin: 0;
+    padding-top: 100px;
+    background: black;
+}
+
+.container {
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    background: #182042;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    max-width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 0 10px 0;
+}
+
+h3, .saved {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    max-width: fit-content;
+    color: #eff6f7;
+}
+
+.saved {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    min-width: 500px;
+    margin-right: 50px;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+    color: #f84762;
+}
+
+#home-score, #guess-score {
+    margin: 3px 0 7px 0;
+    background-color:#090000;
+    padding: 5px;
+    max-width: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+}
+
+button {
+    height: 18px;
+    width: 18px;
+    border: 1px solid #7e88ac;
+    background: none;
+    color: #7e88ac;
+    border-radius: 3px;
+    padding: 0;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.save-btn {
+    min-width: 30px;
+}
+
+.reset-btn {
+    min-width: 30px;
+}
+
+.reset-container {
+    display: flex;
+    align-items: end;
+}
+
+.home-points, .guess-points {
+    max-width: fit-content;
+}
+
+.home-board, .guest-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.save-container {
+    padding: 10px 0 15px 0px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: scenter;
+    align-items: center;
+    text-align: center;
+    background: #182042;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+h6, h5{
+    font-family: 'DS-Digital';
+    color: white;
+    margin: 0;
+}
+
+h6 {
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 30px;
+    margin: 0;
+    color: #f84762;
+}
+
+.pogi {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mas-gwapo {
+    display: flex;
+    flex-direction: column;
+    min-width: 44.11px;
+}
+
+.parentNgPogi {
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
